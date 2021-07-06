@@ -31,7 +31,7 @@ class addbox extends Component
         { 
             this.setState
             ({
-                nameError: 'Receiver name is required.'
+                nameError: 'Receiver name must be input.'
             })
             isError = true;
         } 
@@ -48,7 +48,7 @@ class addbox extends Component
          {
             this.setState
             ({
-                weightError: 'Weight is required.'
+                weightError: 'Weight must be input.'
             })
             isError = true;
         } 
@@ -56,7 +56,7 @@ class addbox extends Component
         {
             this.setState
             ({
-                weightError: 'Negative values are not permitted for weight.',
+                weightError: 'Weight cannot be negative.',
                 weight: defaultWeight
             })
             isError = true;
@@ -74,7 +74,7 @@ class addbox extends Component
         {
             this.setState
             ({
-                colorError: "The color of the box can not be of shade Blue."
+                colorError: "The color of the box can not have any shade of blue."
             })
             isError = true;
         }
