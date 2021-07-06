@@ -15,3 +15,4 @@ Backend:
     - npm start
 - Open a browser of your choice and visit http://localhost:8080
  
+- Make sure that the backend is running before running the frontend
